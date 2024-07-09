@@ -2,7 +2,7 @@
 
 require 'json'
 
-module TrainlaneApi
+module TrainlineApi
   class Result
     def initialize(json)
       @json = JSON.parse(json)

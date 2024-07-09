@@ -1,0 +1,440 @@
+{
+  "journeySearch": {
+    "journeys": {
+      "1": {
+        "sections": [],
+        "id": "journey-2a68556b-31ce-4993-bed9-9e6aab012ea8",
+        "direction": "outward",
+        "legs": [
+          "leg-cfe3ba7f-58c4-472c-9b9d-4e942060296e",
+          "leg-864521d6-0342-436b-82a3-6c14614b6227"
+        ],
+        "departAt": "2024-08-02T05:03:00+02:00",
+        "arriveAt": "2024-08-02T14:13:00+02:00",
+        "duration": "PT9H10M",
+        "hash": "w0FY32CrgDo=",
+        "hasFirstClassRecommendedStationPair": false,
+        "distanceInKm": 0
+      }
+    },
+    "id": "37229956-025e-4910-b94c-b46464f9769b",
+    "expiresAt": "2024-07-09T19:11:12Z",
+    
+    "responseCards": {},
+    "legs": {
+      "leg-cfe3ba7f-58c4-472c-9b9d-4e942060296e": {
+        "id": "leg-cfe3ba7f-58c4-472c-9b9d-4e942060296e",
+        "duration": "PT6H6M",
+        "departAt": "2024-08-02T05:03:00+02:00",
+        "arriveAt": "2024-08-02T11:09:00+02:00",
+        "timetableId": "71",
+        "arrivalLocation": "e08f437b7c5f233659d4cf15f3c487dd8c468551",
+        "departureLocation": "ac429427b3a47f1eeb4b7c94f2ac79a9dd9e5336",
+        "carrier": "519a2eb764bab72bb11bab4e612b42c6d9287b13",
+        "vendorQuotaIdentifier": "ICE 71",
+        "transportMode": "8aa9ed677ae8353527f54ebafc1371cab2ac31da",
+        "co2EmissionInGramsPerPassenger": 9983,
+        "vehicleAttributes": [],
+        "hash": "5gJyDGzdfV8="
+      },
+      "leg-864521d6-0342-436b-82a3-6c14614b6227": {
+        "id": "leg-864521d6-0342-436b-82a3-6c14614b6227",
+        "duration": "PT2H41M",
+        "departAt": "2024-08-02T11:32:00+02:00",
+        "arriveAt": "2024-08-02T14:13:00+02:00",
+        "timetableId": "9574",
+        "arrivalLocation": "ded87b0bcb18efa354ad0b06c6b9deed2c624a5d",
+        "departureLocation": "e08f437b7c5f233659d4cf15f3c487dd8c468551",
+        "carrier": "519a2eb764bab72bb11bab4e612b42c6d9287b13",
+        "vendorQuotaIdentifier": "ICE 9574",
+        "transportMode": "8aa9ed677ae8353527f54ebafc1371cab2ac31da",
+        "co2EmissionInGramsPerPassenger": 8389,
+        "vehicleAttributes": [],
+        "hash": "RmM2W+hfQlo="
+      }
+    },
+    "sections": {
+      "section-a8523d13-d3db-44f5-a1d8-7ad3affd5513": {
+        "alternatives": [
+          "0bae5dd4-6f62-42d6-a82a-8aa645aba165%alternative-1e798ce0-76e6-4802-8bc2-d49d854b23b0",
+          "0bae5dd4-6f62-42d6-a82a-8aa645aba165%alternative-52edafda-287f-4305-8aa5-a01e8285c80e"
+        ],
+        "mixedLegComforts": false,
+        "id": "section-a8523d13-d3db-44f5-a1d8-7ad3affd5513"
+      }
+    },
+    "deliveryOptions": {},
+    "inwardSearch": false
+  },
+  
+  "carriers": {
+    "519a2eb764bab72bb11bab4e612b42c6d9287b13": {
+      "id": "519a2eb764bab72bb11bab4e612b42c6d9287b13",
+      "code": "urn:trainline:db_pst:carrier:db",
+      "name": "Deutsche Bahn"
+    },
+    "e29d859e0e8e253c384cb795433bb3dbb84fa02e": {
+      "id": "e29d859e0e8e253c384cb795433bb3dbb84fa02e",
+      "code": "urn:trainline:sncf:carrier:eurostar",
+      "name": "Eurostar"
+    },
+    "4aced88959c3335275403588c56fee54b66f4fa8": {
+      "id": "4aced88959c3335275403588c56fee54b66f4fa8",
+      "code": "urn:trainline:sncf:carrier:db",
+      "name": "Deutsche Bahn"
+    },
+    "c6929b9a6ac1adda91cd0cbac911f8bcecff1311": {
+      "id": "c6929b9a6ac1adda91cd0cbac911f8bcecff1311",
+      "code": "urn:trainline:db_pst:carrier:sncf",
+      "name": "SNCF"
+    },
+    "9887a987a887bcbd58612c58036c837fb8ab153e": {
+      "id": "9887a987a887bcbd58612c58036c837fb8ab153e",
+      "code": "urn:trainline:sncf:carrier:sncf",
+      "name": "SNCF"
+    }
+  },
+  "locations": {
+    "ac429427b3a47f1eeb4b7c94f2ac79a9dd9e5336": {
+      "id": "ac429427b3a47f1eeb4b7c94f2ac79a9dd9e5336",
+      "code": "urn:trainline:db_pst:loc:8098160",
+      "locationType": "station",
+      "name": "Berlin Hbf (tief)",
+      "shortName": null,
+      "latitude": 52.5256,
+      "longitude": 13.3695,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8098160"
+      ],
+      "parents": []
+    },
+    "ded87b0bcb18efa354ad0b06c6b9deed2c624a5d": {
+      "id": "ded87b0bcb18efa354ad0b06c6b9deed2c624a5d",
+      "code": "urn:trainline:db_pst:loc:8700011",
+      "locationType": "station",
+      "name": "Paris Gare de l’Est",
+      "shortName": null,
+      "latitude": 48.8767,
+      "longitude": 2.3584,
+      "timezone": "Europe/Paris",
+      "countryCode": "FR",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8700011"
+      ],
+      "parents": []
+    },
+    "7096141fb3a43c68e43cf72ec4cdadf38a8a3578": {
+      "id": "7096141fb3a43c68e43cf72ec4cdadf38a8a3578",
+      "code": "urn:trainline:db_pst:loc:8000207",
+      "locationType": "station",
+      "name": "Köln Hbf",
+      "shortName": null,
+      "latitude": 50.943,
+      "longitude": 6.9587,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8000207"
+      ],
+      "parents": []
+    },
+    "75e1a0db2ec97a25090916a1a529d41699e7ea24": {
+      "id": "75e1a0db2ec97a25090916a1a529d41699e7ea24",
+      "code": "urn:trainline:db_pst:loc:8011160",
+      "locationType": "station",
+      "name": "Berlin Hbf",
+      "shortName": null,
+      "latitude": 52.5256,
+      "longitude": 13.3695,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8011160"
+      ],
+      "parents": []
+    },
+    "f00d4dc95b45bf70d3a5ececfd5613a4679dd05e": {
+      "id": "f00d4dc95b45bf70d3a5ececfd5613a4679dd05e",
+      "code": "urn:trainline:db_pst:loc:8800004",
+      "locationType": "station",
+      "name": "Bruxelles-Midi",
+      "shortName": null,
+      "latitude": 50.8354,
+      "longitude": 4.3357,
+      "timezone": "Europe/Brussels",
+      "countryCode": "BE",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8800004"
+      ],
+      "parents": []
+    },
+    "740f3f3e5d57beb2255fd6513e5b40c20c310039": {
+      "id": "740f3f3e5d57beb2255fd6513e5b40c20c310039",
+      "code": "urn:trainline:sncf:loc:FRPNO",
+      "locationType": "station",
+      "name": "Paris Gare du Nord",
+      "shortName": null,
+      "latitude": 48.8802,
+      "longitude": 2.3552,
+      "timezone": "Europe/Paris",
+      "countryCode": "FR",
+      "language": null,
+      "address": null,
+      "aliases": null,
+      "parents": [
+        {
+          "code": "urn:trainline:sncf:loc:FRPAR",
+          "locationType": "city",
+          "name": "Paris",
+          "shortName": null,
+          "latitude": 48.8534,
+          "longitude": 2.3488,
+          "timezone": "Europe/Paris",
+          "countryCode": "FR",
+          "language": null,
+          "address": null,
+          "aliases": null,
+          "id": "7f9c18e63525c174a958a0bc40d755f38fef803d",
+          "parents": []
+        }
+      ]
+    },
+    "6bd976bea31c637331d66c03c78bba704844ddd1": {
+      "id": "6bd976bea31c637331d66c03c78bba704844ddd1",
+      "code": "urn:trainline:sncf:loc:BEBMI",
+      "locationType": "station",
+      "name": "Bruxelles-Midi",
+      "shortName": null,
+      "latitude": 50.8354,
+      "longitude": 4.3357,
+      "timezone": "Europe/Brussels",
+      "countryCode": "BE",
+      "language": null,
+      "address": null,
+      "aliases": null,
+      "parents": [
+        {
+          "code": "urn:trainline:sncf:loc:BEBRU",
+          "locationType": "city",
+          "name": "Bruxelles",
+          "shortName": null,
+          "latitude": 50.8465,
+          "longitude": 4.3517,
+          "timezone": "Europe/Brussels",
+          "countryCode": "BE",
+          "language": null,
+          "address": null,
+          "aliases": null,
+          "id": "915edb9aa60d3da4df63721b6a81427eaddc8f49",
+          "parents": []
+        }
+      ]
+    },
+    "16086c679754698cf1bc1f4ce8b916c908fc12b4": {
+      "id": "16086c679754698cf1bc1f4ce8b916c908fc12b4",
+      "code": "urn:trainline:sncf:loc:FRPST",
+      "locationType": "station",
+      "name": "Paris Gare de l’Est",
+      "shortName": null,
+      "latitude": 48.8767,
+      "longitude": 2.3584,
+      "timezone": "Europe/Paris",
+      "countryCode": "FR",
+      "language": null,
+      "address": null,
+      "aliases": null,
+      "parents": []
+    },
+    "10c7f1b5a0da51702ee54a212f0e5f824cf08b49": {
+      "id": "10c7f1b5a0da51702ee54a212f0e5f824cf08b49",
+      "code": "urn:trainline:sncf:loc:DEQKA",
+      "locationType": "station",
+      "name": "Karlsruhe Hbf",
+      "shortName": null,
+      "latitude": 48.9935,
+      "longitude": 8.4018,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": null,
+      "parents": [
+        {
+          "code": "urn:trainline:sncf:loc:DEKLS",
+          "locationType": "city",
+          "name": "Karlsruhe",
+          "shortName": null,
+          "latitude": 48.9935,
+          "longitude": 8.4018,
+          "timezone": "Europe/Berlin",
+          "countryCode": "DE",
+          "language": null,
+          "address": null,
+          "aliases": null,
+          "id": "d7bf53ac72173e6dad4673d8ded265d8629720f5",
+          "parents": []
+        }
+      ]
+    },
+    "e2a2b09b5b01915f793a20fb3dfb9ee438371eb6": {
+      "id": "e2a2b09b5b01915f793a20fb3dfb9ee438371eb6",
+      "code": "urn:trainline:db_pst:loc:8700014",
+      "locationType": "station",
+      "name": "Paris Gare du Nord",
+      "shortName": null,
+      "latitude": 48.8802,
+      "longitude": 2.3552,
+      "timezone": "Europe/Paris",
+      "countryCode": "FR",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8700014"
+      ],
+      "parents": []
+    },
+    "1917066ffb2c92ef391108cc6ce87fdcd8da2058": {
+      "id": "1917066ffb2c92ef391108cc6ce87fdcd8da2058",
+      "code": "urn:trainline:sncf:loc:DEKOH",
+      "locationType": "station",
+      "name": "Köln Hbf",
+      "shortName": null,
+      "latitude": 50.943,
+      "longitude": 6.9587,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": null,
+      "parents": [
+        {
+          "code": "urn:trainline:sncf:loc:DECGN",
+          "locationType": "city",
+          "name": "Köln",
+          "shortName": null,
+          "latitude": 50.9413,
+          "longitude": 6.9672,
+          "timezone": "Europe/Berlin",
+          "countryCode": "DE",
+          "language": null,
+          "address": null,
+          "aliases": null,
+          "id": "104af4082c131a9f1bd0fba8d142d39f77b41578",
+          "parents": []
+        }
+      ]
+    },
+    "0f9f8d0175aaeed255f1a5468e62486c2383077c": {
+      "id": "0f9f8d0175aaeed255f1a5468e62486c2383077c",
+      "code": "urn:trainline:db_pst:loc:8000105",
+      "locationType": "station",
+      "name": "Frankfurt (Main) Hbf",
+      "shortName": null,
+      "latitude": 50.1071,
+      "longitude": 8.6638,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8000105"
+      ],
+      "parents": []
+    },
+    "347cf981af8e2a09c252ef0b17e4ebeea0a716bd": {
+      "id": "347cf981af8e2a09c252ef0b17e4ebeea0a716bd",
+      "code": "urn:trainline:db_pst:loc:8000244",
+      "locationType": "station",
+      "name": "Mannheim Hbf",
+      "shortName": null,
+      "latitude": 49.4793,
+      "longitude": 8.4695,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": [
+        "8000244"
+      ],
+      "parents": []
+    },
+    "20a4dfcc2e7cba7b3ea1dc0190d54f528fc4591f": {
+      "id": "20a4dfcc2e7cba7b3ea1dc0190d54f528fc4591f",
+      "code": "urn:trainline:sncf:loc:DEMHG",
+      "locationType": "station",
+      "name": "Mannheim Hbf",
+      "shortName": null,
+      "latitude": 49.4793,
+      "longitude": 8.4695,
+      "timezone": "Europe/Berlin",
+      "countryCode": "DE",
+      "language": null,
+      "address": null,
+      "aliases": null,
+      "parents": [
+        {
+          "code": "urn:trainline:sncf:loc:DEBEF",
+          "locationType": "city",
+          "name": "Mannheim",
+          "shortName": null,
+          "latitude": 49.4793,
+          "longitude": 8.4695,
+          "timezone": "Europe/Berlin",
+          "countryCode": "DE",
+          "language": null,
+          "address": null,
+          "aliases": null,
+          "id": "de9bfcbbbefd145fd456a78a55ee806d07c94e43",
+          "parents": []
+        }
+      ]
+    }
+  },
+  "discountCards": {},
+  "disruptions": {},
+  "transportModes": {
+    "8aa9ed677ae8353527f54ebafc1371cab2ac31da": {
+      "id": "8aa9ed677ae8353527f54ebafc1371cab2ac31da",
+      "code": "urn:trainline:db_pst:tramod:train",
+      "name": "Train",
+      "mode": "train"
+    },
+    "84b2733a6d050a7408469f99e1b3c797ddbd1bd9": {
+      "id": "84b2733a6d050a7408469f99e1b3c797ddbd1bd9",
+      "code": "urn:trainline:sncf:tramod:train",
+      "name": "Train",
+      "mode": "train"
+    }
+  },
+  "passengerTypes": {
+    "7f9212e98506ecf63cd6735033fb000cf30a47a6": {
+      "id": "7f9212e98506ecf63cd6735033fb000cf30a47a6",
+      "name": "adult",
+      "code": "urn:trainline:db_pst:psgr:adult",
+      "ageRestriction": {
+        "lowerBound": 27
+      }
+    },
+    "167b58fb119e931214d881a997653b96d20b4da3": {
+      "id": "167b58fb119e931214d881a997653b96d20b4da3",
+      "name": "adult",
+      "code": "urn:trainline:sncf:psgr:adult",
+      "ageRestriction": {
+        "lowerBound": 26
+      }
+    }
+  },
+  "appliedDiscounts": {}
+}

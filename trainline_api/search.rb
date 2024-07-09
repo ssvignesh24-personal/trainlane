@@ -3,7 +3,7 @@
 require 'json'
 require_relative 'result'
 
-module TrainlaneApi
+module TrainlineApi
   class Search
     def initialize(from, to, depart_at)
       @from = from
@@ -22,7 +22,7 @@ module TrainlaneApi
     end
 
     def result
-      TrainlaneApi::Result.new(response_json)
+      TrainlineApi::Result.new(response_json)
     end
   end
 end

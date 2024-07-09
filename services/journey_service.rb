@@ -6,7 +6,7 @@ class JourneyService
   class << self
     def call(id, result)
       journey_json = result.fetch_journey_by_id(id)
-      return unless journey_json['sections'].any?
+      return if journey_json.nil? || journey_json['sections'].none?
 
       new(id, result)
     end

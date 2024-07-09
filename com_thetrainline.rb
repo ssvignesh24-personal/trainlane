@@ -1,14 +1,15 @@
 # frozen_string_literal: true
 
-require './models/models'
-require './trainlane_api/search'
+require_relative './models/models'
+require_relative './services/journey_service'
+require './trainline_api/search'
 
 class ComThetrainline
   class << self
     def find(from, to, depart_at)
       raise 'Invalid date' unless depart_at.is_a?(DateTime)
 
-      result = TrainlaneApi::Search.call(from, to, depart_at.strftime('%FT%T'))
+      result = TrainlineApi::Search.call(from, to, depart_at.strftime('%FT%T'))
       journeys = result.journeys.map do |journey_id, _|
         JourneyService.call(journey_id, result)
       end
