@@ -33,8 +33,8 @@ ComThetrainline.find('Berlin', 'Paris', DateTime.now)
 ```
 
 ## The API structure
+<img width="1170" alt="Screenshot 2024-07-09 at 14 17 04" src="https://github.com/ssvignesh24-personal/trainlane/assets/175155820/8ed7c63b-b519-4f96-b11b-c37ab6139080">
 
-<img width="1170" alt="Screenshot 2024-07-09 at 14 17 04" src="https://github.com/ssvignesh24/trainlane/assets/12658419/605b4273-c40d-48f4-bfc4-9c7bafce0b74">
 
 The Trainline API response follows a pattern similar to JSON:API where each entity's details are independently described and their relation is indicated using their ID/URI. This is in contrast to nesting the related fields.
 
@@ -57,4 +57,5 @@ The main components of the response are,
 
 ## Sample response in the repository
 
-<img width="1177" alt="Screenshot 2024-07-09 at 20 46 36" src="https://github.com/ssvignesh24/trainlane/assets/12658419/d8dc6ddc-cc5c-4842-8538-6b66951f6416">
+<img width="1177" alt="Screenshot 2024-07-09 at 20 46 36" src="https://github.com/ssvignesh24-personal/trainlane/assets/175155820/61c6133a-4030-4ea6-93c6-ba923aa2da77">
+
